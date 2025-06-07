@@ -1,0 +1,77 @@
+Looking in links: https://download.openmmlab.com/mmcv/dist/cpu/torch1.13.1.html
+Collecting mmcv
+  Using cached mmcv-2.2.0.tar.gz (479 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: addict in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmcv) (2.4.0)
+Collecting mmengine>=0.3.0 (from mmcv)
+  Using cached mmengine-0.10.7-py3-none-any.whl.metadata (20 kB)
+Requirement already satisfied: numpy in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmcv) (2.0.2)
+Requirement already satisfied: packaging in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmcv) (25.0)
+Requirement already satisfied: Pillow in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmcv) (11.2.1)
+Requirement already satisfied: pyyaml in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmcv) (6.0.2)
+Requirement already satisfied: yapf in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmcv) (0.43.0)
+Requirement already satisfied: regex in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmcv) (2024.11.6)
+Collecting matplotlib (from mmengine>=0.3.0->mmcv)
+  Downloading matplotlib-3.9.4-cp39-cp39-win_amd64.whl.metadata (11 kB)
+Collecting rich (from mmengine>=0.3.0->mmcv)
+  Using cached rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting termcolor (from mmengine>=0.3.0->mmcv)
+  Using cached termcolor-3.1.0-py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: opencv-python>=3 in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from mmengine>=0.3.0->mmcv) (4.11.0.86)
+Collecting contourpy>=1.0.1 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading contourpy-1.3.0-cp39-cp39-win_amd64.whl.metadata (5.4 kB)
+Collecting cycler>=0.10 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading fonttools-4.58.1-cp39-cp39-win_amd64.whl.metadata (108 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading kiwisolver-1.4.7-cp39-cp39-win_amd64.whl.metadata (6.4 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Using cached pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
+Collecting python-dateutil>=2.7 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting importlib-resources>=3.2.0 (from matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading importlib_resources-6.5.2-py3-none-any.whl.metadata (3.9 kB)
+Collecting zipp>=3.1.0 (from importlib-resources>=3.2.0->matplotlib->mmengine>=0.3.0->mmcv)
+  Downloading zipp-3.22.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib->mmengine>=0.3.0->mmcv)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting markdown-it-py>=2.2.0 (from rich->mmengine>=0.3.0->mmcv)
+  Using cached markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich->mmengine>=0.3.0->mmcv)
+  Using cached pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting typing-extensions<5.0,>=4.0.0 (from rich->mmengine>=0.3.0->mmcv)
+  Downloading typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->mmengine>=0.3.0->mmcv)
+  Using cached mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: platformdirs>=3.5.1 in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from yapf->mmcv) (4.3.8)
+Requirement already satisfied: tomli>=2.0.1 in c:\users\mayur\miniconda3\envs\viton-env\lib\site-packages (from yapf->mmcv) (2.2.1)
+Using cached mmengine-0.10.7-py3-none-any.whl (452 kB)
+Downloading matplotlib-3.9.4-cp39-cp39-win_amd64.whl (7.8 MB)
+   ---------------------------------------- 7.8/7.8 MB 4.4 MB/s eta 0:00:00
+Downloading contourpy-1.3.0-cp39-cp39-win_amd64.whl (211 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.58.1-cp39-cp39-win_amd64.whl (1.5 MB)
+   ---------------------------------------- 1.5/1.5 MB 4.0 MB/s eta 0:00:00
+Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+Downloading kiwisolver-1.4.7-cp39-cp39-win_amd64.whl (55 kB)
+Using cached pyparsing-3.2.3-py3-none-any.whl (111 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading zipp-3.22.0-py3-none-any.whl (9.8 kB)
+Using cached rich-14.0.0-py3-none-any.whl (243 kB)
+Using cached pygments-2.19.1-py3-none-any.whl (1.2 MB)
+Downloading typing_extensions-4.14.0-py3-none-any.whl (43 kB)
+Using cached markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Using cached mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Using cached termcolor-3.1.0-py3-none-any.whl (7.7 kB)
+Building wheels for collected packages: mmcv
+  Building wheel for mmcv (setup.py): started
+  Building wheel for mmcv (setup.py): finished with status 'done'
+  Created wheel for mmcv: filename=mmcv-2.2.0-py2.py3-none-any.whl size=732175 sha256=5953ef4e377bb944ce108396b1dd7df7315edd8fe9cb263c8a377ce4cce2fb12
+  Stored in directory: c:\users\mayur\appdata\local\pip\cache\wheels\d4\4b\87\51dd18771b527fb1559f11f7153a5f056d5d872135a7dcb5f5
+Successfully built mmcv
+Installing collected packages: zipp, typing-extensions, termcolor, six, pyparsing, pygments, mdurl, kiwisolver, fonttools, cycler, contourpy, python-dateutil, markdown-it-py, importlib-resources, rich, matplotlib, mmengine, mmcv
+
+Successfully installed contourpy-1.3.0 cycler-0.12.1 fonttools-4.58.1 importlib-resources-6.5.2 kiwisolver-1.4.7 markdown-it-py-3.0.0 matplotlib-3.9.4 mdurl-0.1.2 mmcv-2.2.0 mmengine-0.10.7 pygments-2.19.1 pyparsing-3.2.3 python-dateutil-2.9.0.post0 rich-14.0.0 six-1.17.0 termcolor-3.1.0 typing-extensions-4.14.0 zipp-3.22.0
